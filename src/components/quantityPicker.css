@@ -1,0 +1,23 @@
+.quantityPicker {
+    color: rgb(0, 0, 0);
+    display: block;
+}
+
+.quantityPicker .btn-info {
+    color: rgb(231, 68, 68);
+    display: inline-block;
+}
+.quantityPicker label {
+    color: black;
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 5px;
+}
+
+.quantityPicker label {
+    width: 25px;
+}
+
+.quantityPicker .btn-sm {
+    background-color: black;
+}

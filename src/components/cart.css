@@ -1,0 +1,35 @@
+
+
+
+
+
+.cart-page {
+    min-height: 600px;
+    background-color: aquamarine;
+    padding-top: 120px;
+}
+
+.cart-page h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.cart-page h3 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    color: black;
+
+}
+.cart-container {
+    display: flex;
+}
+
+.cart-container .products {
+    flex: 4;
+    
+}
+
+.cart-container .side-menu {
+    flex: 1;
+    background-color: rgb(231, 231, 231);
+}

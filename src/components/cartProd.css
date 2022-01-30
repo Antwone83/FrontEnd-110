@@ -1,0 +1,60 @@
+.cart-prod{
+    border:  1px solid rgb(255, 147, 147);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+};
+
+.cart-prod label{
+    display:inline-block;
+    padding: 3px 5px;
+}
+
+.cart-prod .price {
+    color: rgb(247, 223, 7);
+    font-weight: bold;
+    font-size: 17px;
+    display: inline-block;
+}
+
+.cart-prod .total {
+    color: rgb(22, 9, 9);
+    font-size: 17px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.cart-prod .total .getTotal {
+    color:rgb(5, 1, 1);
+    font-weight: bold;
+    font-size: 17px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.cart-prod .quantity {
+    color: rgb(9, 30, 219);
+    font-weight: bold;
+}
+.cart-prod .btn-danger {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.cart-prod h6 {
+    font-family:'Gill Sans';
+    font-size: 18px;
+    color: blue;
+}
+
+.cart-prod img {
+    width: 250px;
+    height: 180px;
+}
+
+.btn-info {
+    color: red;
+}
+

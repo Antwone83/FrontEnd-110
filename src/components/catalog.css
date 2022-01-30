@@ -1,0 +1,15 @@
+.catalog {
+    min-height: 600px;
+    background-color: rgba(66, 142, 255, 0.932);
+}
+
+.catalog h1 {
+    color: rgb(189, 0, 0);
+    font-family: 'Franklin Gothic Medium';
+    background-color: yellow;
+}
+.catalog h3 {
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    background-color: yellow;
+}

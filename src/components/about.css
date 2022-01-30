@@ -1,0 +1,41 @@
+.about-page {
+    min-height: 600px;
+    background-color: rgba(66, 142, 255, 0.932);
+    display:inline-block
+}
+
+.about-page h1 {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium';
+    color: brown;
+    margin-top: 25%;
+}
+
+.picture {
+    display: block;
+}
+
+.picture img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    bottom: 0%;
+    left: 42%;
+    right: 0%;
+    padding: 5px; 
+    cursor: pointer;
+}
+
+.picture .hover {
+    display: none;
+}
+
+.picture:hover .hover {
+    display: block;
+}

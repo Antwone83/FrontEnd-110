@@ -1,0 +1,84 @@
+.product{
+    border:  1px solid rgb(175, 175, 175);
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px blue;
+    margin: 5px;
+
+}
+
+.product label{
+    display:inline-block;
+    padding: 3px 5px;
+}
+
+.product .price {
+    color: rgb(27, 247, 7);
+    font-weight: bold;
+    font-size: 17px;
+    display: inline-block;
+}
+
+.product .total {
+    color: rgb(22, 9, 9);
+    font-size: 17px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.product .total .getTotal {
+    color:rgb(5, 1, 1);
+    font-weight: bold;
+    font-size: 17px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.product .btn-add {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.product .quantityPicker {
+    display: block;
+}
+
+.product .prod-category {
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    color: brown;
+    margin-left: 140px;
+
+}
+
+.product h2 {
+    font-family:'Gill Sans';
+    font-size: 18px;
+    color: blue;
+}
+
+.product img {
+    width: 250px;
+    height: 180px;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    cursor: pointer;
+    position:inherit;
+}
+
+.product .hover {
+    display: none;
+}
+
+.product:hover .hover {
+    display: block;
+}
+
+.btn-info {
+    color: red;
+}
